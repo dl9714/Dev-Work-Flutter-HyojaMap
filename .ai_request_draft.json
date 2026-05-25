@@ -1,0 +1,79 @@
+{
+  "buffers": {
+    "_default": {
+      "saved_at": 1778964233.0020015,
+      "state": {
+        "single": {
+          "edit": {
+            "current_file": null
+          },
+          "multi_overwrite_1": {
+            "current_file": null,
+            "project_overwrite_scope_root": "c:\\users\\dl971\\development\\work\\dev-work-flutter-hyojamap"
+          },
+          "multi_overwrite_2": {
+            "current_file": null,
+            "project_overwrite_scope_root": "c:\\users\\dl971\\development\\work\\dev-work-flutter-hyojamap"
+          },
+          "multi_overwrite_3": {
+            "current_file": null,
+            "project_overwrite_scope_root": "c:\\users\\dl971\\development\\work\\dev-work-flutter-hyojamap"
+          },
+          "multi_overwrite_4": {
+            "current_file": null,
+            "project_overwrite_scope_root": "c:\\users\\dl971\\development\\work\\dev-work-flutter-hyojamap"
+          },
+          "new": {
+            "current_file": null,
+            "title": "",
+            "prompt": ""
+          },
+          "overwrite": {
+            "current_file": null,
+            "project_overwrite_scope_root": "c:\\users\\dl971\\development\\work\\dev-work-flutter-hyojamap"
+          },
+          "tpl": {
+            "current_file": null,
+            "title": "",
+            "prompt": ""
+          }
+        },
+        "split": {
+          "left": {
+            "edit": {
+              "current_file": null
+            },
+            "new": {
+              "current_file": null
+            },
+            "overwrite": {
+              "current_file": null
+            },
+            "tpl": {
+              "current_file": null
+            }
+          },
+          "right": {
+            "edit": {
+              "current_file": null
+            },
+            "new": {
+              "current_file": null
+            },
+            "overwrite": {
+              "current_file": null
+            },
+            "tpl": {
+              "current_file": null
+            }
+          }
+        }
+      },
+      "ui": {}
+    }
+  },
+  "active_buffer": "_default",
+  "version": 2,
+  "saved_at": 1778964233.0030022,
+  "project_key": "c:\\users\\dl971\\development\\work\\dev-work-flutter-hyojamap"
+}
