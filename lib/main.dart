@@ -15,7 +15,7 @@ import 'package:geocoding/geocoding.dart';
 import 'package:latlong2/latlong.dart';
 
 const String appTitle = '효자 지도맵';
-const String appVersion = '2026-08-25.3';
+const String appVersion = '2026-08-25.4';
 const String androidApplicationId = 'com.raccoonsom.hyojamap';
 
 void main() {

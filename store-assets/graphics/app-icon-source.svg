@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">효자 지도맵 앱 아이콘</title>
+  <desc id="desc">집에서 목적지 핀까지 이어지는 굵은 길을 표현한 지도 앱 아이콘</desc>
+  <rect width="512" height="512" fill="#006D73"/>
+  <path d="M256 190 C256 224 190 218 190 256 C190 298 322 280 322 322 C322 346 284 350 256 340"
+        fill="none" stroke="#FFF4DF" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M256 94 C224 94 198 120 198 152 C198 194 256 234 256 234 C256 234 314 194 314 152 C314 120 288 94 256 94 Z"
+        fill="#FFC247"/>
+  <circle cx="256" cy="152" r="24" fill="#006D73"/>
+  <path d="M198 365 L256 314 L314 365 L304 365 L304 414 L270 414 L270 386 L242 386 L242 414 L208 414 L208 365 Z"
+        fill="#FF6655"/>
+</svg>

@@ -3,8 +3,8 @@
     "short_name": "효자 지도맵",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
+    "background_color": "#006D73",
+    "theme_color": "#006D73",
     "description": "부모님도 쉽게 쓰는 사진 지도와 간편 길찾기 앱.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
@@ -23,13 +23,13 @@
             "src": "icons/Icon-maskable-192.png",
             "sizes": "192x192",
             "type": "image/png",
-            "purpose": "maskable"
+            "purpose": "any maskable"
         },
         {
             "src": "icons/Icon-maskable-512.png",
             "sizes": "512x512",
             "type": "image/png",
-            "purpose": "maskable"
+            "purpose": "any maskable"
         }
     ]
 }
