@@ -1,11 +1,11 @@
 {
-    "name": "grandparents_map",
-    "short_name": "grandparents_map",
+    "name": "효자 지도맵 by RaccoonSomSatang",
+    "short_name": "효자 지도맵",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "RaccoonSomSatang이 만든 부모님용 사진 지도와 간편 길찾기 앱.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

@@ -15,7 +15,8 @@ import 'package:geocoding/geocoding.dart';
 import 'package:latlong2/latlong.dart';
 
 const String appTitle = '효자 지도맵';
-const String appVersion = '2026-08-23.9';
+const String appVersion = '2026-08-25.1';
+const String brandName = 'RaccoonSomSatang';
 const String androidApplicationId = 'com.raccoonsom.hyojamap';
 
 void main() {
@@ -28,7 +29,7 @@ class GrandparentsMapApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '$appTitle $appVersion',
+      title: '$appTitle $appVersion · $brandName',
       theme: ThemeData(
         primarySwatch: Colors.teal,
         scaffoldBackgroundColor: const Color(0xFFF5F5F5),
@@ -778,10 +779,23 @@ class _GalleryHomeScreenState extends State<GalleryHomeScreen> {
                 style: TextStyle(fontSize: 12, color: Colors.black54),
               ),
             ),
+            FittedBox(
+              fit: BoxFit.scaleDown,
+              child: Text(
+                brandName,
+                maxLines: 1,
+                style: TextStyle(
+                  fontSize: 10,
+                  color: Colors.teal,
+                  fontWeight: FontWeight.w600,
+                  letterSpacing: 0.2,
+                ),
+              ),
+            ),
           ],
         ),
         centerTitle: true,
-        toolbarHeight: 80,
+        toolbarHeight: 92,
         actions: [
           // 관리자 모드 토글 버튼
           IconButton(
