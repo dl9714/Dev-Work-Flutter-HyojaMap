@@ -15,11 +15,15 @@ import 'package:geocoding/geocoding.dart';
 import 'package:latlong2/latlong.dart';
 
 const String appTitle = '효자 지도맵';
-const String appVersion = '2026-08-25.1';
-const String brandName = 'RaccoonSomSatang';
+const String appVersion = '2026-08-25.2';
+const String brandName = '라쿤솜사탕';
 const String androidApplicationId = 'com.raccoonsom.hyojamap';
 
 void main() {
+  assert(() {
+    debugPrint('$appTitle developer version: $appVersion');
+    return true;
+  }());
   runApp(const GrandparentsMapApp());
 }
 
@@ -29,7 +33,7 @@ class GrandparentsMapApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: '$appTitle $appVersion · $brandName',
+      title: '$appTitle · $brandName',
       theme: ThemeData(
         primarySwatch: Colors.teal,
         scaffoldBackgroundColor: const Color(0xFFF5F5F5),
@@ -212,7 +216,7 @@ class SafetyUtils {
       final headers = <String, String>{'Accept': 'application/json'};
       if (!kIsWeb) {
         headers['User-Agent'] =
-            'HyojaMap/$appVersion (+https://github.com/dl9714/Dev-Work-Flutter-HyojaMap)';
+            'HyojaMap/1.0.1 (+https://github.com/dl9714/Dev-Work-Flutter-HyojaMap)';
       }
       final response = await http
           .get(
@@ -774,14 +778,6 @@ class _GalleryHomeScreenState extends State<GalleryHomeScreen> {
             FittedBox(
               fit: BoxFit.scaleDown,
               child: Text(
-                appVersion,
-                maxLines: 1,
-                style: TextStyle(fontSize: 12, color: Colors.black54),
-              ),
-            ),
-            FittedBox(
-              fit: BoxFit.scaleDown,
-              child: Text(
                 brandName,
                 maxLines: 1,
                 style: TextStyle(
@@ -795,7 +791,7 @@ class _GalleryHomeScreenState extends State<GalleryHomeScreen> {
           ],
         ),
         centerTitle: true,
-        toolbarHeight: 92,
+        toolbarHeight: 80,
         actions: [
           // 관리자 모드 토글 버튼
           IconButton(

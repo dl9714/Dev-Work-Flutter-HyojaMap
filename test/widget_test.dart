@@ -25,7 +25,7 @@ void main() {
 
     // Verify that the title exists.
     expect(find.text(appTitle), findsOneWidget);
-    expect(find.text(appVersion), findsOneWidget);
+    expect(find.text(appVersion), findsNothing);
     expect(find.text(brandName), findsOneWidget);
     expect(
       find.byKey(const ValueKey('current-location-appbar-button')),
