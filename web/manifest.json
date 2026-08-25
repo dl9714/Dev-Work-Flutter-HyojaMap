@@ -1,11 +1,11 @@
 {
-    "name": "효자 지도맵 · 라쿤솜사탕",
+    "name": "효자 지도맵",
     "short_name": "효자 지도맵",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "라쿤솜사탕이 만든 부모님용 사진 지도와 간편 길찾기 앱.",
+    "description": "부모님도 쉽게 쓰는 사진 지도와 간편 길찾기 앱.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
