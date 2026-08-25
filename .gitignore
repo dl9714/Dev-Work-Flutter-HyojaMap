@@ -75,6 +75,9 @@ captures/
 gradlew.bat.bak
 /gradle/wrapper/gradle-wrapper.properties
 /key.properties
+/android/key.properties
+*.jks
+*.keystore
 
 # Android Studio Cache
 .cxx/
@@ -97,4 +100,7 @@ google-services.json
 *.jpeg
 *.gif
 *.webp
-assets/
+assets/*
+!assets/images/
+assets/images/*
+!assets/images/.gitkeep

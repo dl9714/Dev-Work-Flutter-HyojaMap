@@ -1,4 +1,4 @@
-package com.example.grandparents_map
+package com.raccoonsom.hyojamap
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,8 +1,8 @@
 name: grandparents_map # 프로젝트 이름 (당신의 프로젝트 이름에 맞게 변경될 수 있음)
-description: A new Flutter project. # 프로젝트 설명
+description: 부모님도 쉽게 쓰는 사진 지도와 간편 길찾기 앱. # 프로젝트 설명
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
-version: 1.0.0+1 # 앱 버전 (수정 가능)
+version: 1.0.0+2 # 앱 버전 (수정 가능)
 
 environment:
   sdk: ">=3.0.0 <4.0.0" # Dart SDK 버전 (버전은 다를 수 있음)
@@ -16,6 +16,10 @@ dependencies:
   path: ^1.8.3 # 경로 유틸리티
   url_launcher: ^6.1.14 # 지도 앱 실행
   geocoding: ^2.1.1 # 주소를 좌표로 변환
+  geolocator: ^14.0.2 # 카카오맵 현재 위치 출발 좌표 전달
+  http: ^1.6.0 # 웹에서도 현재 좌표를 실제 주소로 변환
+  flutter_map: ^8.3.1 # 현재 위치를 앱 안의 지도로 표시
+  latlong2: ^0.10.1 # 지도 좌표 모델
 
 dev_dependencies:
   flutter_test:
